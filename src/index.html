@@ -2,32 +2,40 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>TP DevOps – Docker & CI/CD</title>
+    <title>TP DevOps avec Docker</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
+<div class="container">
+
     <h1>TP DevOps avec Docker</h1>
-    <p class="subtitle">Conteneurisation & Pipeline CI/CD automatisé</p>
-</header>
+    <p><strong>Pipeline CI/CD et Conteneurisation</strong></p>
+    <p>Version : 1.0.0</p>
 
-<main class="container">
+    <h2>Informations du Container</h2>
+    <div class="info">
+        <p><strong>Status :</strong> En cours d'exécution</p>
+        <p><strong>Image :</strong> nginx:alpine</p>
+        <p><strong>Dernière MAJ :</strong> Automatique via CI/CD</p>
+    </div>
 
-    <section class="card">
-        <h2>📌 Présentation du projet</h2>
-        <p>
-            Ce projet a pour objectif de mettre en œuvre une chaîne DevOps complète
-            à partir d’une application web statique. Il illustre les concepts de
-            conteneurisation, d’automatisation et d’intégration continue.
-        </p>
-    </section>
+    <h2>Test de Fonctionnalité</h2>
+    <button>Tester le Container</button>
 
-    <section class="card">
-        <h2>⚙️ Architecture technique</h2>
-        <ul>
-            <li>Application web statique (HTML / CSS / JavaScript)</li>
-            <li>Serveur web <strong>Nginx</strong></li>
-            <li>Conteneurisation avec <strong>Docker</strong></li>
-            <li>Pipeline CI/CD avec <strong>GitHub Actions</strong></li>
-        </
+    <h2>Informations Docker</h2>
+    <div class="info">
+        <p><strong>Base Image :</strong> nginx:alpine</p>
+        <p><strong>Registry :</strong> GitHub Container Registry</p>
+        <p><strong>CI/CD :</strong> GitHub Actions</p>
+        <p><strong>Container ID :</strong> N/A</p>
+    </div>
+
+    <div class="footer">
+        TP DevOps – Docker & CI/CD
+    </div>
+
+</div>
+
+</body>
+</html>
