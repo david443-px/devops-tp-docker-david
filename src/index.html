@@ -1,52 +1,33 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TP DevOps Docker</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>TP DevOps – Docker & CI/CD</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
+
 <header>
-<h1>TP DevOps avec Docker</h1>
-<p class="subtitle">Pipeline CI/CD et Conteneurisation</p>
-<div class="version">Version: <span id="version">1.0.0</span></div>
+    <h1>TP DevOps avec Docker</h1>
+    <p class="subtitle">Conteneurisation & Pipeline CI/CD automatisé</p>
 </header>
-<main>
-<section class="info-box">
-<h2>Informations du Container</h2>
-<p><strong>Status :</strong> <span id="status">En cours d'exécution</sp
-<p><strong>Image :</strong> <span id="image">ghcr.io/[username]/devops-
-<p><strong>Dernière MAJ :</strong> <span id="timestamp"></span></p>
-</section>
-<section class="action-box">
-<h2>Test de Fonctionnalité</h2>
-<button onclick="testContainer()" class="btn-primary">Tester le Contain
-<div id="result" class="result-box"></div>
-</section>
-<section class="docker-info">
-<h2>Informations Docker</h2>
-<div class="tech-stack">
-<div class="tech-item">
-<strong>Base Image</strong>
-<p>nginx:alpine</p>
-</div>
-<div class="tech-item">
-<strong>Registry</strong>
-<p>GitHub Container Registry</p>
-</div>
-<div class="tech-item">
-<strong>CI/CD</strong>
-<p>GitHub Actions</p>
-</div>
-</div>
-</section>
-</main>
-<footer>
-<p>Container ID: <span id="container-id">N/A</span></p>
-</footer>
-</div>
-<script src="app.js"></script>
-</body>
-</html>
+
+<main class="container">
+
+    <section class="card">
+        <h2>📌 Présentation du projet</h2>
+        <p>
+            Ce projet a pour objectif de mettre en œuvre une chaîne DevOps complète
+            à partir d’une application web statique. Il illustre les concepts de
+            conteneurisation, d’automatisation et d’intégration continue.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>⚙️ Architecture technique</h2>
+        <ul>
+            <li>Application web statique (HTML / CSS / JavaScript)</li>
+            <li>Serveur web <strong>Nginx</strong></li>
+            <li>Conteneurisation avec <strong>Docker</strong></li>
+            <li>Pipeline CI/CD avec <strong>GitHub Actions</strong></li>
+        </
