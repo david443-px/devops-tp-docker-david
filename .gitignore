@@ -1,0 +1,7 @@
+node_modules/
+.env
+*.log
+image.tar
+audit.json
+security-report.json
+report.json
